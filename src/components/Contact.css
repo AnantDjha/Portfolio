@@ -196,8 +196,17 @@ font-weight: 400;
 .socialF span a:hover{
     color: #f3c784;
 }
+.secondFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .secondFooter p{
     color: rgb(176, 171, 171);
+    width: 100%;
+    /* background-color: #fff; */
+    text-align: center;
+
 }
 @media only screen and (max-width:1213px)
 {
@@ -261,6 +270,9 @@ font-weight: 400;
     .footer{
         height: 30%;
     }
+    .context{
+        height: 70%;
+    }
     .webName,.socialF{
         width: 40%;
     }
@@ -291,8 +303,31 @@ font-weight: 400;
     .contentCon p button{
         right: 8%;
     }
+    
     .secondFooter p{
-        font-size: 12px;
+        font-size: 10px;
 
     }
+    .socialF span a{
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (max-height:848px)
+{
+    .footer{
+        height: 35%;
+    }
+}
+@media only screen and (max-height:730px)
+{
+    .footer{
+        height: 40%;
+    }
+    .contact-options .sp a img{
+        width: 30px;
+        height: 30px;
+    }
+    
+   
 }
