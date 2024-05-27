@@ -303,11 +303,18 @@ font-weight: 400;
     .contentCon p button{
         right: 8%;
     }
-    
+    .secondFooter{
+        height:10%;
+    }
+    .firstFooter{
+        height: 90%;
+        justify-content: space-evenly;
+    }
     .secondFooter p{
         font-size: 10px;
 
     }
+    
     .socialF span a{
         font-size: 14px;
     }
