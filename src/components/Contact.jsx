@@ -17,7 +17,7 @@ export default function Contact() {
         localStorage.setItem("key", isSubmited)
     }
     return (
-        <div className="contactMain">
+        <div className="contactMain" id="contact">
             <div className="context">
                 <div className="contentCon">
                     <i>Get in touch</i>
