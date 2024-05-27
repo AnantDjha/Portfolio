@@ -49,7 +49,7 @@ function Skill()
 
                 <div className="first">
                 <motion.div className="language"  initial={{position:"relative",top:"5rem",opacity:0}}
-                transition={{duration:0.4,delay:0.5, ease: "easeInOut"}} animate={mainControl}>
+                transition={{duration:0.4,delay:0.3, ease: "easeInOut"}} animate={mainControl}>
                     <h3 style={{color:"white"}}>PROGRAMMING</h3>
                     <div className="language-div">
                         <span>
@@ -119,7 +119,7 @@ function Skill()
                 </motion.div>
 
                 <motion.div className="database" initial={{position:"relative",top:"5rem",opacity:0}}
-                transition={{duration:0.4,delay:0.75, ease: "easeInOut"}} animate={mainControl}>
+                transition={{duration:0.4,delay:0.5, ease: "easeInOut"}} animate={mainControl}>
                 <h3 style={{color:"white"}}>DATABASE</h3>
                     <div className="language-div">
                         <span>
@@ -153,7 +153,7 @@ function Skill()
                 </div>
 
                 <motion.div className="sec" initial={{position:"relative",top:"5rem",opacity:0}}
-                transition={{duration:0.4,delay:1, ease: "easeInOut"}} animate={mainControl}>
+                transition={{duration:0.4,delay:0.7, ease: "easeInOut"}} animate={mainControl}>
                     <img src={vscode} id ="bid" alt="" />
                     <img src={intelij} id = "aid" alt="" />
                     <img src={studio} alt="" />

@@ -196,6 +196,9 @@ font-weight: 400;
 .socialF span a:hover{
     color: #f3c784;
 }
+.secondFooter p{
+    color: rgb(176, 171, 171);
+}
 @media only screen and (max-width:1213px)
 {
     .contentCon h1{
@@ -287,5 +290,9 @@ font-weight: 400;
     }
     .contentCon p button{
         right: 8%;
+    }
+    .secondFooter p{
+        font-size: 12px;
+
     }
 }
