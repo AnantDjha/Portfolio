@@ -1,0 +1,292 @@
+.contactMain{
+    height: 100vh;
+    width: 95vw;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin: auto;
+    
+}
+
+.context{
+    width: 100%;
+    height: 75%;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    height: 25%;
+    /* background-color: red; */
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    flex-direction: column;
+
+}
+.secondFooter{
+    display: flex;
+    align-items: center;
+    /* padding-left:1rem ; */
+    padding: 1rem 0;
+    justify-content: center;
+}
+
+.contentCon{
+    width: 70%;
+    height: 80%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.contentCon i{
+    font-size: 20px;
+    width: 70%;
+    margin: 1rem 0;
+    color: white;
+    font-family: "Cairo", sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+.contentCon h1{
+    font-size: 42px;
+    width: 70%;
+    /* color: white; */
+    font-family: "Josefin Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+}
+.contentCon p{
+    width: 70%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 1.5rem 0;
+}
+.contentCon p input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #f3c784;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+}
+.contentCon p b{
+    font-family: 'Courier New', Courier, monospace;
+    color: #f3c784;
+}
+.contentCon p button{
+    position: relative;
+    /* left:-1rem;
+    top:-1rem; */
+    width: 10%;
+    height: 100%;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    /* border-bottom: 2px solid #6c5375; */
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    right: 6%;
+    
+}
+.contactCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    /* width: 70%; */
+    height: 10rem;
+    background-color: rgb(77, 77, 77);
+    border-radius: 20px;
+    margin: 2rem 0;
+    background-color: rgb(52, 51, 51);
+
+}
+.contact-options{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    /* background-color: #fff; */
+    align-items: center;
+}
+.contact-options h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: white;
+}
+
+
+.contact-options .sp a{
+   
+    border-radius: 50%;
+    /* background-color: blue; */
+    text-decoration: none;
+   
+    margin: 0 0.6rem;
+    color: #f3c784;
+    font-size: 30px;
+    /* background-color: white; */
+    border: 2px solid #f3c784;
+    padding: 0.3rem 0.4rem;
+}
+.para{
+    width: 90%;
+    font-size: 20px;
+    color: white;
+}
+
+.firstFooter{
+    width: 100%;
+    height: 70%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.webName,.socialF{
+    width: 30%;
+    /* background-color: blue; */
+    /* background-color: ; */
+    background-color: rgb(52, 51, 51);
+
+}
+.webName p{
+    width: 100%;
+    text-align: center;
+    font-family: "Wallpoet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin: 1rem 0;
+}
+.socialF {
+    display: flex;
+    justify-content: center;
+}
+.socialF span{
+    display: flex;
+    flex-direction: column;
+    margin :1rem 2rem;
+    text-decoration: none;
+}
+.socialF span p{
+    font-weight: bold;
+    font-size: 17px;
+}
+.socialF span a{
+    color: rgba(255,255 , 255, 0.5);
+    text-decoration: none;
+    font-weight: 100;
+}
+.socialF span a:hover{
+    color: #f3c784;
+}
+@media only screen and (max-width:1213px)
+{
+    .contentCon h1{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width:1000px)
+{
+    .contentCon h1{
+        /* font-size: 35px; */
+        width: 100%;
+    }
+    .contentCon i{
+        width: 100%;
+
+    }
+    .contentCon p{
+        width: 100%;
+
+    }
+    .contactCard{
+        width: 100%;
+
+    }
+}
+@media only screen and (max-width:855px)
+{
+    .webName,.socialF{
+        width: 40%;
+    }
+}
+@media only screen and (max-width:700px)
+{
+    .contentCon
+    {
+        width: 95%;
+        justify-content: center;
+    }
+    .contentCon h1{
+        /* font-size: 35px; */
+        width: 100%;
+        font-size: 27px;
+    }
+    .contentCon i{
+        width: 100%;
+
+    }
+    .contentCon p{
+        width: 100%;
+
+    }
+    .contactCard{
+        width: 100%;
+
+    }
+}
+
+@media only screen and (max-width:650px)
+{
+    .footer{
+        height: 30%;
+    }
+    .webName,.socialF{
+        width: 40%;
+    }
+    .webName {
+        height: fit-content;
+        width: 100%;
+    }
+    .socialF{
+        width: 100%;
+    }
+    .firstFooter{
+        flex-direction: column;
+
+    }
+}
+@media only screen and (max-width:600px)
+{
+    .contentCon h1{
+       
+        font-size: 23px;
+    }
+    .contact-options h3{
+        font-size: 20px;
+    }
+    .para{
+        font-size: 16px;
+    }
+    .contentCon p button{
+        right: 8%;
+    }
+}

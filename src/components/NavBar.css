@@ -1,0 +1,179 @@
+.mainNav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 0;
+    position: fixed;
+    top: 0;
+    height: 4rem;
+    width: 100vw;
+    animation-name: slideIn;
+    animation-duration: .8s;
+
+
+    /* height: fit-content; */
+}
+@keyframes slideIn{
+    from{
+        top:-4rem;
+    }
+    to{
+        top:0px;
+    }
+}
+
+nav ul li {
+    list-style: none;
+    width: 20%;
+    height: 4rem;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 0.2px solid rgba(255, 255, 255, 0.05);
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    border: 0.2px solid rgba(255, 255, 255, 0.05);
+    background-color: rgb(42, 41, 41);
+    background-color: rgb(52, 51, 51);
+    width:80%;
+
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    /* background-color: blue; */
+}
+
+.nameOfMy{
+    display: none;
+}
+
+.menu {
+    color: white;
+    display: none;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    /* background-color: black; */
+    font-size: 11px;
+    height: 100%;
+    padding-left: 2rem;
+    width:100%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    /* background-color: blue; */
+}
+
+
+.active{
+    background-color: rgb(52, 51, 51);
+}
+nav ul li a:hover{
+    color:#eabe7b;
+
+}
+
+@media only screen and (max-width:1000px)
+{
+    ul{
+        flex-direction: column;
+        position:absolute;
+        /* top:-15rem; */
+        top: 4rem;
+        right: 0;
+       
+        height: 0px;
+        width:100vw;
+        transition-duration: 0.3s;
+        overflow: hidden;
+        
+
+    }
+    @keyframes visible {
+        from{
+            opacity: 0.1;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    nav ul li {
+        width:100%;
+        justify-content: flex-start;
+        border: none;
+        animation-name: visible ;
+        animation-delay: 0.3s;
+        animation-duration: 0.2s;
+        
+    }
+    .nameOfMy{
+        display: block;
+        /* background-color: blueviolet; */
+        height: 100%;
+        display: flex;
+        align-items: center;
+        width: 12rem;
+        justify-content: center;
+    }
+    .nameOfMy a{
+        color:white;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Wallpoet", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+   
+    .mainNav nav{
+        justify-content: space-between;
+        align-items: center;
+       
+        height: 100%;
+        align-items: center;
+       
+       
+    }
+    .menu{
+        display: flex;
+        width:8rem;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+    .menu img{
+        height: 26px;
+        width:25px;
+        cursor: pointer;
+        border-radius: 1rem;
+    }
+
+    .menuOpen{
+        height:15rem;
+    }
+    
+    
+    
+}
