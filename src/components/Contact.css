@@ -130,24 +130,23 @@ font-weight: 400;
     color: white;
 }
 
-
-.contact-options .sp a{
-   
-    border-radius: 50%;
-    /* background-color: blue; */
-    text-decoration: none;
-   
-    margin: 0 0.6rem;
-    color: #f3c784;
-    font-size: 30px;
-    /* background-color: white; */
-    border: 2px solid #f3c784;
-    padding: 0.3rem 0.4rem;
+.sp{
+    display: flex;
+}
+.contact-options .sp a img{
+   background-color: #f3c784;
+  width: 40px;
+  height: 40px;
+  margin: 0 0.6rem;
+  color: white;
+  border-radius: 50%;
+    border: 1px solid #f3c784;
 }
 .para{
     width: 90%;
     font-size: 20px;
     color: white;
+    
 }
 
 .firstFooter{

@@ -1,5 +1,7 @@
 import { useRef, useState } from "react"
 import "./Contact.css"
+import emailLogo from "../assets/logoOfEmail.png"
+import phoneLogo from "../assets/iconOfPhone.png"
 
 export default function Contact() {
     const [isSubmited, setSubmited] = useState(localStorage.getItem("key"));
@@ -32,8 +34,8 @@ export default function Contact() {
                             <h3>Contact me</h3>
                             <span className="sp">
 
-                                <a href="mailto:anantjha0112@gmail.com">&#9993;</a>
-                                <a href="tel:+919028828688">&#9742;</a>
+                                <a href="mailto:anantjha0112@gmail.com"><img src={emailLogo} alt="" /></a>
+                                <a href="tel:+919028828688"><img src={phoneLogo} alt="" /></a>
                             </span>
                         </div>
                         <div className="para">
