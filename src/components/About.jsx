@@ -3,7 +3,7 @@ import "./About.css"
 import { motion, useAnimation} from "framer-motion";
 import { useParams } from "react-router-dom";
 import homePage from "../assets/laptop.jpg"
-import cv from "../assets/Anant4.pdf"
+import cv from "../assets/AnantCv.pdf"
 import { useInView } from "react-intersection-observer";
 import { refVar } from "./contexts/context";
 import menuImg from "../assets/menuImg.png"
@@ -29,7 +29,7 @@ function About()
                 <div className="about">
                     <div ref={ref}><motion.h1 variants={{visible:{ left: "0", opacity: 0.8 }}} initial={{ position: "relative", top: "5rem", opacity: 0 }} animate={mainControl} transition={{ duration: 0.4,delay:0.1 ,ease: "easeInOut"}}>About Me</motion.h1>
                     <motion.p variants={{visible:{ left: "0", opacity: 1 }}} initial={{ position: "relative", top: "5rem", opacity: 0 }} animate={mainControl} transition={{ duration: 0.4 ,delay:0.3,ease: "easeInOut"}}>I'm a skilled developer with expertise in Java, Python, and Data Structures & Algorithms. My goal is to specialize in Android development, leveraging my knowledge of React and Node.js to create innovative and user-friendly mobile applications. I'm passionate about solving complex problems and constantly expanding my skill set to stay ahead in the ever-evolving tech landscape."</motion.p>
-                    <motion.span variants={{visible:{ left: "0", opacity: 1 }}} initial={{ position: "relative", top: "5rem", opacity: 0 }} animate={mainControl} transition={{ duration: 0.4,delay:0.6,ease: "easeInOut"}}><a href={cv} download = "cv">Download CV</a></motion.span>
+                    <motion.span variants={{visible:{ left: "0", opacity: 1 }}} initial={{ position: "relative", top: "5rem", opacity: 0 }} animate={mainControl} transition={{ duration: 0.4,delay:0.6,ease: "easeInOut"}}><a href={cv} download={true} >Download C</a></motion.span>
                     </div>
                 </div>
                 <div className="photo">
