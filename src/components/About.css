@@ -217,6 +217,10 @@
       margin:8% 0;
 
     }
+    .about div a{
+        padding: 0.7rem 1.5rem;
+        font-size: 16px;
+    }
 
     
 }
@@ -246,4 +250,5 @@
         margin:8% 0;
   
       }
+      
 }
