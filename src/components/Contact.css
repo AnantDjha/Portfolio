@@ -135,8 +135,8 @@ font-weight: 400;
 }
 .contact-options .sp a img{
    background-color: #f3c784;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin: 0 0.6rem;
   color: white;
   border-radius: 50%;
@@ -192,6 +192,7 @@ font-weight: 400;
     color: rgba(255,255 , 255, 0.5);
     text-decoration: none;
     font-weight: 100;
+
 }
 .socialF span a:hover{
     color: #f3c784;
