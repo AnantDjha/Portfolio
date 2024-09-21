@@ -49,7 +49,7 @@ export default function Project() {
                             <p>Developed a React-based website for purchasing online courses, featuring a stylish landing page and multiple user-friendly sections.</p>
                         </div>
                         <div className="btn">
-                            <a href="https://github.com/AnantDjha/coursify">Github</a>
+                            <a href="https://havelearnquest.netlify.app" target="_blank">Visit</a>
 
                         </div>
                     </motion.div >
