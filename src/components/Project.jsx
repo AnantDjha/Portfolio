@@ -49,19 +49,8 @@ export default function Project() {
                             <p>Developed a React-based website for purchasing online courses, featuring a stylish landing page and multiple user-friendly sections.</p>
                         </div>
                         <div className="btn">
-                            <a href="https://havelearnquest.netlify.app" target="_blank">Visit</a>
+                            <a href="https://havelearnquest.netlify.app" target="_blank">view</a>
 
-                        </div>
-                    </motion.div >
-                    <motion.div to="/project/2" className="box" initial={{ position: "relative", top: "5rem", opacity: 0 }}
-                        transition={{ duration: 0.4, delay: 0.7, ease: "easeIn" }} animate={mainControl}>
-                        <img src={project2} alt="ccccc" />
-                        <div className="desc">
-                            <h4>Music Player</h4>
-                            <p>React-based music player utilizing the Spotify Web Playback SDK, enabling seamless playback of Spotify tracks within the application.</p>
-                        </div>
-                        <div className="btn">
-                            <a href="https://github.com/AnantDjha/Music-Application">Github</a>
                         </div>
                     </motion.div >
                     <motion.div to="/project/3" className="box" initial={{ position: "relative", top: "5rem", opacity: 0 }}
@@ -75,9 +64,21 @@ export default function Project() {
                             </p>
                         </div>
                         <div className="btn">
-                            <a href="https://github.com/AnantDjha/Medify">Github</a>
+                            <a href="https://medifystore.netlify.app" target="_blabk">view</a>
                         </div>
                     </motion.div >
+                    <motion.div to="/project/2" className="box" initial={{ position: "relative", top: "5rem", opacity: 0 }}
+                        transition={{ duration: 0.4, delay: 0.7, ease: "easeIn" }} animate={mainControl}>
+                        <img src={project2} alt="ccccc" />
+                        <div className="desc">
+                            <h4>Music Player</h4>
+                            <p>React-based music player utilizing the Spotify Web Playback SDK, enabling seamless playback of Spotify tracks within the application.</p>
+                        </div>
+                        <div className="btn">
+                            <a href="https://github.com/AnantDjha/Music-Application">Github</a>
+                        </div>
+                    </motion.div >
+                   
                     <motion.div to="/project/4" className="box" initial={{ position: "relative", top: "5rem", opacity: 0 }}
                         transition={{ duration: 0.4, delay: 1.1, ease: "easeInOut" }} animate={mainControl}>
                         <img src={weather} alt="ccccc" />
@@ -86,7 +87,7 @@ export default function Project() {
                             <p>responsive weather application using React, providing real-time weather data for any city worldwide</p>
                         </div>
                         <div className="btn">
-                            <a href="https://github.com/AnantDjha/Weather-Applicatin">Github</a>
+                            <a href="https://thisismynewweatherapp.netlify.app">view</a>
                         </div>
                     </motion.div >
                     <motion.div to="/project/5" className="box" initial={{ position: "relative", top: "5rem", opacity: 0 }}
